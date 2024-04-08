@@ -1,0 +1,64 @@
+Type=OleDll
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Reference=*\G{FBC86965-B117-11D2-9B57-006008777507}#1.0#0#..\..\..\Program Files (x86)\Common Files\Thermo Shared\Nautilus\LSExtension.dll#LSExtension 3.0 Type Library
+Reference=*\G{D56423AA-8E07-11D3-B3BF-00600857E60B}#1.0#0#..\..\..\Program Files (x86)\Common Files\Thermo Shared\Nautilus\lsextensioncontrol.dll#LSExtensionControl 1.0 Type Library
+Reference=*\G{6D43D661-A71C-11D3-B3C2-00600857E60B}#1.0#0#..\..\..\Program Files (x86)\Common Files\Thermo Shared\Nautilus\LSServiceProvider.dll#LSServiceProvider 2.0 Type Library
+Reference=*\G{EF53050B-882E-4776-B643-EDA472E8E3F2}#2.7#0#..\..\..\Program Files (x86)\Common Files\System\ado\msado27.tlb#Microsoft ActiveX Data Objects 2.7 Library
+Reference=*\G{420B2830-E718-11CF-893D-00A0C9054228}#1.0#0#..\..\..\Windows\SysWOW64\scrrun.dll#Microsoft Scripting Runtime
+Reference=*\G{22230011-FD52-4AE9-AE00-8353003C248A}#1.4#0#..\DLLS\MacLab.dll#Macabi Health Care General Utils
+Reference=*\G{F9B72B28-E359-45CC-8F95-DEC4492B3443}#5d.0#0#..\SdgLog\SdgLog.dll#SdgLog
+<<<<<<< .mine
+Reference=*\G{BF3F8AEB-BE5F-4561-AADE-DD48EBD50BC4}#3.6#0#..\Revision\Revision.dll#Revision
+Reference=*\G{F5078F18-C551-11D3-89B9-0000F81FE221}#3.0#0#..\..\..\Windows\SysWOW64\msxml3.dll#Microsoft XML, v3.0
+=======
+Reference=*\G{BF3F8AEB-BE5F-4561-AADE-DD48EBD50BC4}#3.6#0#..\DLLS\Revision.dll#Revision
+Reference=*\G{F5078F18-C551-11D3-89B9-0000F81FE221}#3.0#0#..\..\..\Windows\System32\msxml3.dll#Microsoft XML, v3.0
+>>>>>>> .r985
+Class=clsSDGCopy; clsSDGCopy.cls
+Module=modSDGCopy; modSDGCopy.bas
+Module=modSDGVars; modSDGVars.bas
+Form=frmMain.frm
+Class=CResult; CResult.cls
+Class=CTest; CTest.cls
+Class=CSlide; CSlide.cls
+Class=CBlock; CBlock.cls
+Class=CSample; CSample.cls
+Class=CSdg; CSdg.cls
+Startup="(None)"
+HelpFile=""
+NoControlUpgrade=1
+Title="SDGCopy"
+ExeName32="SDGCopy.dll"
+Path32="..\DLLS"
+Command32=""
+Name="sdgCopy"
+HelpContextID="0"
+CompatibleMode="2"
+CompatibleEXE32="..\DLLS\SDGCopy.dll"
+VersionCompatible32="1"
+MajorVer=1
+MinorVer=1
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="One1"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=1
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+ThreadingModel=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
